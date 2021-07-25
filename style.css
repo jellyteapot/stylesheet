@@ -1,0 +1,92 @@
+.colours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto 10%;
+    flex-wrap: wrap;
+}
+
+.swatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    max-height: 200px;
+    margin: 20px;
+}
+
+.colour-block {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform .25s;
+}
+
+.colour-block p {
+    visibility: hidden;
+}
+
+.colour-block:hover {
+    transform: scale(1.1);
+}
+.colour-block:hover p {
+    visibility: visible;
+}
+.swatch p {
+    margin: 1px auto;
+}
+
+.colour-name {
+
+}
+
+.colour-desc {
+
+}
+
+#beige {
+    background-color: hsl(25, 51%, 87%);
+}
+#terracotta {
+    background-color: hsl(18, 61%, 59%);
+}
+#snow {
+    background-color: hsl(0, 100%, 99%);
+}
+#saddlebrown {
+    background-color: hsl(25, 76%, 31%);
+    color:hsl(0, 100%, 99%);
+}
+#mustard {
+    background-color: hsl(42, 95%, 54%);
+}
+#salmon {
+    background-color: hsl(12, 95%, 69%);
+}
+#burntpeach {
+    background-color: hsl(14, 74%, 55%);
+}
+#oxblood {
+    background-color: hsl(9, 63%, 37%);
+}
+#duckegg {
+    background-color: hsl(175, 27%, 84%);
+}
+#darkforest {
+    background-color: hsl(132, 4%, 23%);
+    color: hsl(0, 100%, 99%);
+}
+#teal {
+    background-color: hsl(183, 31%, 47%);
+}
+#mint {
+    background-color: hsl(164, 36%, 66%);
+}
