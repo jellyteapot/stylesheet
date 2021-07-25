@@ -27,7 +27,7 @@
     align-items: center;
     border-radius: 5px;
     margin-bottom: 10px;
-    transition: transform .25s;
+    transition: transform .25s; /*Sets transition time for the expansion of the colour swatch*/
 }
 
 .colour-block p {
@@ -35,10 +35,10 @@
 }
 
 .colour-block:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); /* The colour blocks will increase to 110% of original size*/
 }
 .colour-block:hover p {
-    visibility: visible;
+    visibility: visible; /*The HSL text only visibile on hover*/
 }
 .swatch p {
     margin: 1px auto;
