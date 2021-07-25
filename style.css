@@ -193,3 +193,12 @@ footer {
     display: inline-block;
     width: 45%;
 }
+
+#for-bill {
+    font-family: 'Space Mono', 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    background-color: hsl(175, 27%, 84%);
+    border-radius: 15px;
+    padding: 5%;
+    color:hsl(132, 4%, 23%);
+}
