@@ -1,8 +1,17 @@
-.colours {
+body {
+    display: block;
+    margin: 0 10%;
+}
+
+section {
+    margin: 0 5% 50px 5%;
+}
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: auto 10%;
+    margin: auto 5%;
     flex-wrap: wrap;
 }
 
@@ -89,4 +98,33 @@
 }
 #mint {
     background-color: hsl(164, 36%, 66%);
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.space-mono {
+    font-family: 'Space Mono', 'Courier New', Courier, monospace;
+}
+
+.raleway {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
 }
