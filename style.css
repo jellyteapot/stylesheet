@@ -7,6 +7,53 @@ section {
     margin: 0 5% 50px 5%;
 }
 
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+footer {
+    text-align: right;
+}
+
+.list-style, li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.special-msg {
+    font-family: "Space Mono", 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -16,18 +63,21 @@ section {
 }
 
 .text-container {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: auto 5%;
+    align-items:center;
 }
 
 .swatch {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     align-items: center;
     width: 150px;
-    max-height: 200px;
+    max-height: 250px;
     margin: 20px;
 }
 
@@ -59,11 +109,16 @@ section {
 }
 
 .colour-name {
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .colour-desc {
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 16px;
 }
 
 #beige {
@@ -132,4 +187,9 @@ section {
 }
 .italic {
     font-style: italic;
+}
+
+.text-column {
+    display: inline-block;
+    width: 45%;
 }
