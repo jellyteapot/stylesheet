@@ -15,6 +15,11 @@ section {
     flex-wrap: wrap;
 }
 
+.text-container {
+    display: block;
+    margin: auto 5%;
+}
+
 .swatch {
     display: flex;
     flex-direction: column;
